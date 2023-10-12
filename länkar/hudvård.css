@@ -1,0 +1,181 @@
+@charset "UTF-8";
+body {
+  display: block;
+  margin: 0;
+  background-color: rgb(255, 255, 255);
+}
+
+.header-top {
+  width: 100%;
+  height: 40px;
+  background-color: rgb(247, 210, 238);
+  margin-top: 0;
+  padding-top: 0;
+}
+
+.containders {
+  display: flex;
+  justify-content: space-evenly;
+  background-color: rgb(255, 255, 255);
+  align-items: center;
+}
+.containders .navigation .menu {
+  display: flex;
+  list-style: none;
+  font-family: "Courier New", Courier, monospace;
+  color: rgb(3, 29, 29);
+  align-items: center;
+}
+.containders .navigation .menu a {
+  text-decoration: none;
+}
+.containders .navigation .menu a li {
+  border: 1px solid black;
+  padding: 1em;
+  margin: 1em;
+  align-items: center;
+}
+.containders .search .search-form .input-container {
+  position: relative;
+}
+.containders .search .search-form .input-container .input-search {
+  border-radius: 100px;
+  width: 20rem;
+  height: 45px;
+  border: 1px solid #d0d0d0;
+}
+.containders .search .search-form .input-container .fa-magnifying-glass {
+  position: absolute;
+  left: 18rem;
+  z-index: 1;
+  top: 15px;
+}
+
+.toppsäljare {
+  margin-top: 4em;
+  margin-bottom: 7em;
+  box-sizing: border-box;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+.toppsäljare img {
+  width: 80vw;
+  height: 60vh;
+}
+
+.main-container {
+  box-sizing: border-box;
+  padding-left: 10%;
+  padding-right: 10%;
+  display: flex;
+  -moz-column-gap: 8em;
+       column-gap: 8em;
+  margin-bottom: 5em;
+  justify-content: center;
+}
+.main-container .hudvård,
+.main-container .hårvård,
+.main-container .parfym {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid rgb(255, 255, 255);
+  align-items: center;
+}
+.main-container .hudvård img,
+.main-container .hårvård img,
+.main-container .parfym img {
+  width: 250px;
+  margin-bottom: 4em;
+  transition: transform 0.2s;
+}
+.main-container .hudvård img:hover,
+.main-container .hårvård img:hover,
+.main-container .parfym img:hover {
+  transform: scale(1.2);
+}
+.main-container .hudvård a,
+.main-container .hårvård a,
+.main-container .parfym a {
+  text-decoration: none;
+  color: black;
+}
+.main-container .hudvård p,
+.main-container .hudvård h3,
+.main-container .hårvård p,
+.main-container .hårvård h3,
+.main-container .parfym p,
+.main-container .parfym h3 {
+  font-family: arial;
+  text-align: center;
+}
+.main-container .hudvård .köp,
+.main-container .hårvård .köp,
+.main-container .parfym .köp {
+  width: 250px;
+  background-color: transparent;
+  border-radius: 15px;
+  height: 25px;
+}
+
+footer {
+  background-color: rgb(247, 210, 238);
+}
+footer .footer-container {
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: row;
+}
+footer .footer-container .footer-elegant-aura {
+  font-size: 20px;
+}
+footer .footer-container .footer-elegant-aura ul {
+  list-style: none;
+  margin-top: 3rem;
+}
+footer .footer-container .footer-elegant-aura ul a {
+  text-decoration: none;
+  color: black;
+}
+footer .footer-container .footer-elegant-aura ul a:hover {
+  text-decoration: underline;
+}
+footer .footer-container .footer-elegant-aura ul a li {
+  font-size: 16px;
+  margin-top: 5px;
+}
+footer .footer-container .footer-kundservice {
+  font-size: 20px;
+}
+footer .footer-container .footer-kundservice ul {
+  list-style: none;
+  margin-top: 3rem;
+}
+footer .footer-container .footer-kundservice ul a {
+  text-decoration: none;
+  color: black;
+}
+footer .footer-container .footer-kundservice ul a:hover {
+  text-decoration: underline;
+}
+footer .footer-container .footer-kundservice ul a li {
+  font-size: 16px;
+  margin-top: 5px;
+}
+footer .footer-container .footer-media {
+  display: flex;
+}
+footer .footer-container .footer-media div {
+  font-size: 1.5em;
+  margin: 10px;
+  margin-top: 3rem;
+}
+footer .footer-container .footer-media div a {
+  color: black;
+}
+
+.copyright {
+  display: flex;
+  font-size: 1em;
+  justify-content: center;
+  padding: 20px;
+}/*# sourceMappingURL=hudvård.css.map */

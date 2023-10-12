@@ -1,0 +1,153 @@
+body {
+  display: block;
+  margin: 0;
+  background-color: rgb(255, 255, 255);
+}
+
+.header-top {
+  width: 100%;
+  height: 40px;
+  background-color: rgb(247, 210, 238);
+  margin-top: 0;
+  padding-top: 0;
+}
+
+.containders {
+  display: flex;
+  justify-content: space-evenly;
+  background-color: rgb(255, 255, 255);
+  align-items: center;
+}
+.containders .navigation .menu {
+  display: flex;
+  list-style: none;
+  font-family: "Courier New", Courier, monospace;
+  color: rgb(3, 29, 29);
+  align-items: center;
+}
+.containders .navigation .menu a {
+  text-decoration: none;
+}
+.containders .navigation .menu a li {
+  border: 1px solid black;
+  padding: 1em;
+  margin: 1em;
+  align-items: center;
+}
+.containders .search .search-form .input-container {
+  position: relative;
+}
+.containders .search .search-form .input-container .input-search {
+  border-radius: 100px;
+  width: 20rem;
+  height: 45px;
+  border: 1px solid #d0d0d0;
+}
+.containders .search .search-form .input-container .fa-magnifying-glass {
+  position: absolute;
+  left: 18rem;
+  z-index: 1;
+  top: 15px;
+}
+
+.dg-container {
+  box-sizing: border-box;
+  padding-left: 10%;
+  padding-right: 10%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 10em;
+  margin-bottom: 10em;
+  gap: 10em;
+}
+.dg-container .dolce-gabbana {
+  width: 30%;
+  transition: 0.5s;
+}
+.dg-container .dolce-gabbana img {
+  height: 500px;
+}
+.dg-container .dolce-gabbana:hover {
+  transform: scale(1.2);
+}
+.dg-container .dolce-gabbana-decription {
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+  justify-content: end;
+  font-family: arial;
+}
+.dg-container .dolce-gabbana-decription p {
+  font-size: 18px;
+}
+.dg-container .dolce-gabbana-decription button {
+  width: 70px;
+  background-color: transparent;
+  border-radius: 15px;
+  height: 25px;
+}
+
+footer {
+  background-color: rgb(247, 210, 238);
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: row;
+}
+.footer-container .footer-elegant-aura {
+  font-size: 20px;
+}
+.footer-container .footer-elegant-aura ul {
+  list-style: none;
+  margin-top: 3rem;
+}
+.footer-container .footer-elegant-aura ul a {
+  text-decoration: none;
+  color: black;
+}
+.footer-container .footer-elegant-aura ul a:hover {
+  text-decoration: underline;
+}
+.footer-container .footer-elegant-aura ul a li {
+  font-size: 16px;
+  margin-top: 5px;
+}
+.footer-container .footer-kundservice {
+  font-size: 20px;
+}
+.footer-container .footer-kundservice ul {
+  list-style: none;
+  margin-top: 3rem;
+}
+.footer-container .footer-kundservice ul a {
+  text-decoration: none;
+  color: black;
+}
+.footer-container .footer-kundservice ul a:hover {
+  text-decoration: underline;
+}
+.footer-container .footer-kundservice ul a li {
+  font-size: 16px;
+  margin-top: 5px;
+}
+.footer-container .footer-media {
+  display: flex;
+}
+.footer-container .footer-media div {
+  font-size: 1.5em;
+  margin: 10px;
+  margin-top: 3rem;
+}
+.footer-container .footer-media div a {
+  color: black;
+}
+
+.copyright {
+  display: flex;
+  font-size: 1em;
+  justify-content: center;
+  padding: 20px;
+}/*# sourceMappingURL=dolce-gabbana.css.map */

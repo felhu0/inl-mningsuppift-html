@@ -1,0 +1,211 @@
+body {
+  display: block;
+  margin: 0;
+  background-color: rgb(255, 255, 255);
+}
+
+.header-top {
+  width: 100%;
+  height: 40px;
+  background-color: rgb(247, 210, 238);
+  margin-top: 0;
+  padding-top: 0;
+}
+
+.containders {
+  display: flex;
+  justify-content: space-evenly;
+  background-color: rgb(255, 255, 255);
+  align-items: center;
+}
+.containders .navigation .menu {
+  display: flex;
+  list-style: none;
+  font-family: "Courier New", Courier, monospace;
+  color: rgb(3, 29, 29);
+  align-items: center;
+}
+.containders .navigation .menu a {
+  text-decoration: none;
+}
+.containders .navigation .menu a li {
+  border: 1px solid black;
+  padding: 1em;
+  margin: 1em;
+  align-items: center;
+}
+.containders .search .search-form .input-container {
+  position: relative;
+}
+.containders .search .search-form .input-container .input-search {
+  border-radius: 100px;
+  width: 20rem;
+  height: 45px;
+  border: 1px solid #d0d0d0;
+}
+.containders .search .search-form .input-container .fa-magnifying-glass {
+  position: absolute;
+  left: 18rem;
+  z-index: 1;
+  top: 15px;
+}
+
+.produkt {
+  margin-top: 4em;
+  margin-bottom: 3em;
+  box-sizing: border-box;
+  padding-left: 10%;
+  padding-right: 10%;
+  position: relative;
+}
+.produkt img {
+  width: 100%;
+  height: 800px;
+  filter: brightness(70%);
+}
+.produkt .img-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  color: rgb(255, 255, 255);
+  transform: translate(-50%, -50%);
+  font-size: 2.5em;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.jobb-container {
+  box-sizing: border-box;
+  padding-left: 10%;
+  padding-right: 10%;
+  display: flex;
+  margin-top: 5em;
+  margin-bottom: 10em;
+  flex-direction: column;
+  align-items: center;
+}
+.jobb-container h1 {
+  padding-bottom: 30px;
+}
+.jobb-container .kontakt-form {
+  width: 65em;
+}
+.jobb-container .kontakt-form .row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.jobb-container .kontakt-form .row .input-group {
+  flex-basis: 48%;
+}
+.jobb-container .kontakt-form .input-group {
+  margin-bottom: 30px;
+}
+.jobb-container .kontakt-form .input-group input, .jobb-container .kontakt-form .input-group textarea {
+  width: 100%;
+  padding: 10px;
+  outline: 0;
+  font-size: 15px;
+  box-sizing: border-box;
+  border-radius: 4px;
+}
+.jobb-container .kontakt-form .input-group label {
+  height: 100%;
+  padding: 10px;
+  box-sizing: border-box;
+}
+.jobb-container .kontakt-form button {
+  padding: 10px 0;
+  outline: none;
+  background-color: transparent;
+  width: 100%;
+  border-radius: 4px;
+}
+
+input[type=file] {
+  display: none;
+}
+
+.img-input {
+  display: flex;
+  justify-content: space-between;
+  gap: 5em;
+}
+.img-input label {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  cursor: pointer;
+  border: 1px dotted gray;
+  width: 15em;
+  color: gray;
+}
+.img-input label i {
+  font-size: 2em;
+  color: gray;
+}
+
+footer {
+  background-color: rgb(247, 210, 238);
+  padding-bottom: 0;
+  margin-bottom: 0;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: row;
+}
+.footer-container .footer-elegant-aura {
+  font-size: 20px;
+}
+.footer-container .footer-elegant-aura ul {
+  list-style: none;
+  margin-top: 3rem;
+}
+.footer-container .footer-elegant-aura ul a {
+  text-decoration: none;
+  color: black;
+}
+.footer-container .footer-elegant-aura ul a:hover {
+  text-decoration: underline;
+}
+.footer-container .footer-elegant-aura ul a li {
+  font-size: 16px;
+  margin-top: 5px;
+}
+.footer-container .footer-kundservice {
+  font-size: 20px;
+}
+.footer-container .footer-kundservice ul {
+  list-style: none;
+  margin-top: 3rem;
+}
+.footer-container .footer-kundservice ul a {
+  text-decoration: none;
+  color: black;
+}
+.footer-container .footer-kundservice ul a:hover {
+  text-decoration: underline;
+}
+.footer-container .footer-kundservice ul a li {
+  font-size: 16px;
+  margin-top: 5px;
+}
+.footer-container .footer-media {
+  display: flex;
+}
+.footer-container .footer-media div {
+  font-size: 1.5em;
+  margin: 10px;
+  margin-top: 3rem;
+}
+.footer-container .footer-media div a {
+  color: black;
+}
+
+.copyright {
+  display: flex;
+  font-size: 1em;
+  justify-content: center;
+  padding: 20px;
+}/*# sourceMappingURL=jobb.css.map */
