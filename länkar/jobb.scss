@@ -275,13 +275,58 @@ footer {
 
 }
 
-.copyright {
+//footer-bottom kontakt//
+
+.footer-kontakt-container {
     display: flex;
-    font-size: 1em;
+    flex-direction: row;
     justify-content: center;
-    
-padding: 20px;
+    align-items: center;
+    gap: 1rem;
 
+    .contact {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 15px;
+        padding-right: 1rem;
+        gap: 1rem;
+        border-right: 2px solid black;
 
-    
+        p {
+            display: block;
+            margin-block-start: 1em;
+            margin-block-end: 1em;
+            margin-inline-start: 0px;
+            margin-inline-end: 0px;
+
+            a {
+                margin-bottom: 0px;
+                color: black;
+                text-decoration: none;
+            }
+        }
+    }
+
+    .bottom-contact {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        gap: 1rem;
+
+        p {
+            display: block;
+            margin-block-start: 1em;
+            margin-block-end: 1em;
+            margin-inline-start: 0px;
+            margin-inline-end: 0px;
+
+        }
+        span {
+            .far {
+                font-weight: 400;
+            }
+        }
+    }
 }
