@@ -54,7 +54,8 @@ body {
   box-sizing: border-box;
   padding: 5% 10%;
   display: flex;
-  column-gap: 10em;
+  -moz-column-gap: 10em;
+       column-gap: 10em;
   margin-top: 10em;
   justify-content: center;
   margin-bottom: 10em;
@@ -253,6 +254,4 @@ footer {
 }
 .footer-kontakt-container .bottom-contact span .far {
   font-weight: 400;
-}
-
-/*# sourceMappingURL=om-oss.css.map */
+}/*# sourceMappingURL=om-oss.css.map */

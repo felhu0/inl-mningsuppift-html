@@ -68,7 +68,8 @@ body {
   padding-left: 10%;
   padding-right: 10%;
   display: flex;
-  column-gap: 8em;
+  -moz-column-gap: 8em;
+       column-gap: 8em;
   margin-bottom: 5em;
   justify-content: center;
 }
@@ -216,6 +217,4 @@ footer .footer-container .footer-media div a {
 }
 .footer-kontakt-container .bottom-contact span .far {
   font-weight: 400;
-}
-
-/*# sourceMappingURL=hudv%C3%A5rd.css.map */
+}/*# sourceMappingURL=hudvård.css.map */

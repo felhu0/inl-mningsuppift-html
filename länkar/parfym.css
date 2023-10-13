@@ -64,7 +64,8 @@ body {
   padding-left: 10%;
   padding-right: 10%;
   display: flex;
-  column-gap: 5em;
+  -moz-column-gap: 5em;
+       column-gap: 5em;
   margin-bottom: 5em;
 }
 .main-container .hudvård,
@@ -201,6 +202,4 @@ footer {
 }
 .footer-kontakt-container .bottom-contact span .far {
   font-weight: 400;
-}
-
-/*# sourceMappingURL=parfym.css.map */
+}/*# sourceMappingURL=parfym.css.map */

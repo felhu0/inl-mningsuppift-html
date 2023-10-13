@@ -1,3 +1,4 @@
+@charset "UTF-8";
 body {
   display: block;
   margin: 0;
@@ -50,156 +51,125 @@ body {
   top: 15px;
 }
 
-.produkt {
+.toppsäljare {
   margin-top: 4em;
-  margin-bottom: 3em;
+  margin-bottom: 7em;
   box-sizing: border-box;
   padding-left: 10%;
   padding-right: 10%;
-  position: relative;
 }
-.produkt img {
-  width: 100%;
-  height: 800px;
-  filter: brightness(70%);
-}
-.produkt .img-text {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  color: rgb(255, 255, 255);
-  transform: translate(-50%, -50%);
-  font-size: 2.5em;
-  font-family: Arial, Helvetica, sans-serif;
+.toppsäljare video {
+  width: 80vw;
+  height: 60vh;
 }
 
-.jobb-container {
+.main-container {
   box-sizing: border-box;
   padding-left: 10%;
   padding-right: 10%;
   display: flex;
-  margin-top: 5em;
-  margin-bottom: 10em;
-  flex-direction: column;
-  align-items: center;
+  -moz-column-gap: 8em;
+       column-gap: 8em;
+  margin-bottom: 5em;
+  justify-content: center;
 }
-.jobb-container h1 {
-  padding-bottom: 30px;
-}
-.jobb-container .kontakt-form {
-  width: 65em;
-}
-.jobb-container .kontakt-form .row {
+.main-container .hudvård,
+.main-container .hårvård,
+.main-container .parfym {
   display: flex;
+  flex-direction: column;
+  border: 1px solid rgb(255, 255, 255);
   align-items: center;
-  justify-content: space-between;
 }
-.jobb-container .kontakt-form .row .input-group {
-  flex-basis: 48%;
+.main-container .hudvård img,
+.main-container .hårvård img,
+.main-container .parfym img {
+  width: 250px;
+  margin-bottom: 4em;
+  transition: transform 0.2s;
 }
-.jobb-container .kontakt-form .input-group {
-  margin-bottom: 30px;
+.main-container .hudvård img:hover,
+.main-container .hårvård img:hover,
+.main-container .parfym img:hover {
+  transform: scale(1.2);
 }
-.jobb-container .kontakt-form .input-group input, .jobb-container .kontakt-form .input-group textarea {
-  width: 100%;
-  padding: 10px;
-  outline: 0;
-  font-size: 15px;
-  box-sizing: border-box;
-  border-radius: 4px;
+.main-container .hudvård a,
+.main-container .hårvård a,
+.main-container .parfym a {
+  text-decoration: none;
+  color: black;
 }
-.jobb-container .kontakt-form .input-group label {
-  height: 100%;
-  padding: 10px;
-  box-sizing: border-box;
+.main-container .hudvård p,
+.main-container .hudvård h3,
+.main-container .hårvård p,
+.main-container .hårvård h3,
+.main-container .parfym p,
+.main-container .parfym h3 {
+  font-family: arial;
+  text-align: center;
 }
-.jobb-container .kontakt-form button {
-  padding: 10px 0;
-  outline: none;
+.main-container .hudvård .köp,
+.main-container .hårvård .köp,
+.main-container .parfym .köp {
+  width: 250px;
   background-color: transparent;
-  width: 100%;
-  border-radius: 4px;
-}
-
-input[type=file] {
-  display: none;
-}
-
-.img-input {
-  display: flex;
-  justify-content: space-between;
-  gap: 5em;
-}
-.img-input label {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  cursor: pointer;
-  border: 1px dotted gray;
-  width: 15em;
-  color: gray;
-}
-.img-input label i {
-  font-size: 2em;
-  color: gray;
+  border-radius: 15px;
+  height: 25px;
 }
 
 footer {
   background-color: rgb(247, 210, 238);
-  padding-bottom: 0;
-  margin-bottom: 0;
 }
-
-.footer-container {
+footer .footer-container {
   display: flex;
   justify-content: space-evenly;
   flex-direction: row;
 }
-.footer-container .footer-elegant-aura {
+footer .footer-container .footer-elegant-aura {
   font-size: 20px;
 }
-.footer-container .footer-elegant-aura ul {
+footer .footer-container .footer-elegant-aura ul {
   list-style: none;
   margin-top: 3rem;
 }
-.footer-container .footer-elegant-aura ul a {
+footer .footer-container .footer-elegant-aura ul a {
   text-decoration: none;
   color: black;
 }
-.footer-container .footer-elegant-aura ul a:hover {
+footer .footer-container .footer-elegant-aura ul a:hover {
   text-decoration: underline;
 }
-.footer-container .footer-elegant-aura ul a li {
+footer .footer-container .footer-elegant-aura ul a li {
   font-size: 16px;
   margin-top: 5px;
 }
-.footer-container .footer-kundservice {
+footer .footer-container .footer-kundservice {
   font-size: 20px;
 }
-.footer-container .footer-kundservice ul {
+footer .footer-container .footer-kundservice ul {
   list-style: none;
   margin-top: 3rem;
 }
-.footer-container .footer-kundservice ul a {
+footer .footer-container .footer-kundservice ul a {
   text-decoration: none;
   color: black;
 }
-.footer-container .footer-kundservice ul a:hover {
+footer .footer-container .footer-kundservice ul a:hover {
   text-decoration: underline;
 }
-.footer-container .footer-kundservice ul a li {
+footer .footer-container .footer-kundservice ul a li {
   font-size: 16px;
   margin-top: 5px;
 }
-.footer-container .footer-media {
+footer .footer-container .footer-media {
   display: flex;
 }
-.footer-container .footer-media div {
+footer .footer-container .footer-media div {
   font-size: 1.5em;
   margin: 10px;
   margin-top: 3rem;
 }
-.footer-container .footer-media div a {
+footer .footer-container .footer-media div a {
   color: black;
 }
 
@@ -247,4 +217,4 @@ footer {
 }
 .footer-kontakt-container .bottom-contact span .far {
   font-weight: 400;
-}/*# sourceMappingURL=jobb.css.map */
+}/*# sourceMappingURL=smink.css.map */
