@@ -43,10 +43,11 @@ body {
   width: 20rem;
   height: 45px;
   border: 1px solid #d0d0d0;
+  padding-left: 1em;
 }
 .containders .search .search-form .input-container .fa-magnifying-glass {
   position: absolute;
-  left: 18rem;
+  left: 19em;
   z-index: 1;
   top: 15px;
 }
